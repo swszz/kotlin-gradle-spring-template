@@ -4,6 +4,7 @@ kotlin-coroutine = "1.9.0"
 spring-boot = "3.3.3"
 spring-dependency-management = "1.1.6"
 junit = "5.11.0"
+junit-platform = "1.11.2"
 assert4j = "3.26.3"
 
 [plugins]
@@ -27,5 +28,5 @@ kotlin-junit-test = { module = "org.jetbrains.kotlin:kotlin-test-junit5", versio
 
 junit-engine-jupiter = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit" }
 junit-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit" }
-junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "junit" }
+junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "junit-platform" }
 assertj = { module = "org.assertj:assertj-core", version.ref = "assert4j" }
